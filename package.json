@@ -1,0 +1,12 @@
+{
+  "name": "collapse-expand-html-block-elements",
+  "version": "1.0.0",
+  "description": "Add a description for collapse-expand-html-block-elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ulrich Klug <info@ulrichklug.com>",
+  "license": "MIT"
+}
