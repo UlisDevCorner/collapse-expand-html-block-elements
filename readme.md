@@ -1,5 +1,5 @@
 ![Collapse & Expand HTML Block Elements CSS & JS](./readme/images/collapse-expand-html-block-elements-css-js.jpg)  
-Welcome, this is the repo of my video on my YouTube channel **Collapse & Expand HTML Block Elements**.  
+Welcome, this is the repo of my video on my YouTube channel [**Collapse & Expand HTML Block Elements**](https://youtu.be/GVwzUkU0hSw).
 You can find this video and more on my YouTube channel [UlisDevCorner](https://www.youtube.com/channel/UCaBQyc2U5kP_NUwrgmXQcFw).
 
 ### Starter on GitHub
