@@ -1,0 +1,51 @@
+/*
+* Collapse & Expand Styles
+*/
+
+// Collapse Expand Base CSS Class
+.coll-exp {
+
+  // Hidden Icon
+  &-ico {
+    cursor: pointer;
+
+    &::after {
+
+      // Base Style
+      float: right;
+      margin-top: -48px;
+      transition: transform 0.8s ease-out;
+
+      // Entity Icon
+      // content: '\2770';
+      //transform: rotateX(0) rotateZ(90deg);
+      //font-size: 32px;
+      //font-style: normal;
+
+      // SVG
+      //content: '';
+      //background-image: url(../img/chevron.svg);
+      //background-size: cover;
+      //width: 32px;
+      //height: 10px;
+
+      // PNG
+      content: '' url("../img/chevron.png");
+    }
+
+    &.show::after {
+
+      // Entity
+      //transform: rotateX(180deg) rotateZ(90deg);
+
+      // SVG & PNG
+      transform: rotateX(180deg);
+    }
+  }
+
+  // Content Style
+  &-cnt {
+    overflow: hidden;
+    transition: max-height 0.8s ease-out;
+  }
+}
